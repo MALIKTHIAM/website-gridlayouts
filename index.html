@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web avec Grid Layouts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">GridWeb</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <h1>Bienvenue sur GridWeb</h1>
+            <p>Découvrez le pouvoir des grilles CSS modernes</p>
+            <button class="btn">Commencer</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Section avec Grid -->
+    <section class="portfolio" id="portfolio">
+        <h2>Notre Portfolio</h2>
+        <div class="grid-container">
+            <div class="grid-item large">
+                <img src="https://via.placeholder.com/400x300" alt="Projet 1">
+                <h3>Projet Principal</h3>
+                <p>Un projet impressionnant avec CSS Grid</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x300" alt="Projet 2">
+                <h3>Design Moderne</h3>
+                <p>Interface utilisateur épurée</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x300" alt="Projet 3">
+                <h3>Responsive</h3>
+                <p>Adapté à tous les appareils</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x300" alt="Projet 4">
+                <h3>Performant</h3>
+                <p>Optimisé pour la vitesse</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x300" alt="Projet 5">
+                <h3>Créatif</h3>
+                <p>Solutions innovantes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section avec Grid -->
+    <section class="services" id="services">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>Design</h3>
+                <p>Création de designs modernes et attractifs</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>Développement</h3>
+                <p>Développement web avec les dernières technologies</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📱</div>
+                <h3>Mobile</h3>
+                <p>Applications mobiles responsives</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">⚡</div>
+                <h3>Performance</h3>
+                <p>Optimisation pour une meilleure vitesse</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section avec Grid -->
+    <section class="testimonials">
+        <h2>Témoignages</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <p class="quote">"Un excellent travail et une grande qualité!"</p>
+                <p class="author">- Marie Dupont</p>
+            </div>
+            <div class="testimonial">
+                <p class="quote">"L'équipe est très professionnelle et réactive."</p>
+                <p class="author">- Jean Martin</p>
+            </div>
+            <div class="testimonial">
+                <p class="quote">"Je recommande vivement ce service!"</p>
+                <p class="author">- Sophie Bernard</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Votre message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 GridWeb. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
